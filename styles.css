@@ -21,7 +21,10 @@ body {
     padding: 0 0px;
 }
 
-
+.logo {
+    font-size: 24px;
+    margin-left: 30px;
+}
 
 .menu ul {
     list-style-type: none;
@@ -45,7 +48,7 @@ body {
 }
 
 .menu ul li a:hover {
-    color: #dfbfdc;
+    color: #9b7f99;
 }
 
 .class1 {
