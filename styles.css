@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#navbar {
+    background-color: #000000;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    padding: 0 0px;
+}
+
+.logo {
+    font-size: 24px;
+    margin-left: 30px;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu ul li {
+    margin-right: 30px;
+}
+
+.menu ul li:last-child {
+    margin-right: 50;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    color: #ff00f2;
+}
+
+.class1 {
+    background-color: rgb(231, 230, 218);
+    color: white;
+    padding: 20px;
+}
+.class2 {
+    background-color: rgb(196, 213, 231);
+    color: white;
+    padding: 20px;
+}
+
+.class3 {
+    background-color: rgb(160, 221, 190);
+    color: white;
+    padding: 20px;
+}
+
+.container2 {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar {
+    width: 100px;
+    background-color: #f4f4f4;
+    padding: 100px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 20px;
+    margin-left: -30px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    color: #ffcc00;
+}
+
+#content {
+    flex: 1;
+    padding: 30px;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+#navigator {
+    background-color: #f4f4f4;
+    padding: 10px;
+    width: 200px;
+    flex-shrink: 0;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+#back-to-top:hover {
+    background-color: #555;
+}
+
+.custom-button {
+    position: static;
+    top: 20px;
+    left: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: none;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #555;
+}
